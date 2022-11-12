@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.cntall{
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+.cnt1{
+    width: 48%;
+    margin-top: 15px;
+}
+.cnt2{
+    width: 48%;
+    margin-top: 15px;
+}
+.slts{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;   
+    margin-bottom: 10px; 
+    background-color: antiquewhite;
+}
+.sltscnt{
+    display: flex;
+    height: 160px;
+}
+.two, .three,.five, .six, .eight{
+    width: 25px;
+}
+.four{
+    margin-top: 25px;
+}
+.seven{
+    margin-top: 100px;
+}
+.ten{
+    margin-top: 270px;
+}
